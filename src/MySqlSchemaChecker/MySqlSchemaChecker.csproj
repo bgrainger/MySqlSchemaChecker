@@ -39,11 +39,11 @@
   <ItemGroup>
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
-      <Aliases>baseline</Aliases>
+      <Aliases>MySqlData</Aliases>
     </Reference>
     <Reference Include="MySqlConnector">
       <HintPath>..\..\..\MySqlConnector\src\MySqlConnector\bin\Release\net46\MySqlConnector.dll</HintPath>
-      <Aliases>new</Aliases>
+      <Aliases>MySqlConnector</Aliases>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
