@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlSchemaChecker", "MySqlSchemaChecker\MySqlSchemaChecker.csproj", "{27920D7F-AB98-438F-A75C-9B8D281073E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27920D7F-AB98-438F-A75C-9B8D281073E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27920D7F-AB98-438F-A75C-9B8D281073E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27920D7F-AB98-438F-A75C-9B8D281073E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27920D7F-AB98-438F-A75C-9B8D281073E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5089DAB-B6A1-4CEF-B472-AC013CD73EA5}
+	EndGlobalSection
+EndGlobal
