@@ -4,9 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Markup;
 using OldConnection = MySqlData.MySql.Data.MySqlClient.MySqlConnection;
 using NewConnection = MySqlConnector.MySql.Data.MySqlClient.MySqlConnection;
 using OldDbType = MySqlData.MySql.Data.MySqlClient.MySqlDbType;
@@ -72,7 +69,7 @@ namespace MySqlSchemaChecker
 			}
 			Console.WriteLine();
 
-			Console.WriteLine("## Only in MySql.Data");
+			Console.WriteLine("## Only in Connector/NET");
 			Console.WriteLine();
 			Console.WriteLine("| " + string.Join(" | ", oldDataTypes.Columns.Cast<DataColumn>().Select(x => x.ColumnName)) + " |");
 			Console.WriteLine("| " + string.Join(" | ", oldDataTypes.Columns.Cast<DataColumn>().Select(x => "---")) + " |");
